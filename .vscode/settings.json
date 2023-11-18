@@ -1,0 +1,15 @@
+{
+  "rust-analyzer.cargo.extraEnv": {
+    "RUSTFLAGS": "-Ctarget-feature=+crt-static",
+    "VCPKGRS_TRIPLET": "x64-windows-static-release",
+    "TECTONIC_DEP_BACKEND": "vcpkg",
+    "VCPKG_ROOT": "H:/tectonic/target/vcpkg"
+  },
+  "rust-analyzer.runnables.extraEnv": {
+    "RUSTFLAGS": "-Ctarget-feature=+crt-static",
+    "VCPKGRS_TRIPLET": "x64-windows-static-release",
+    "TECTONIC_DEP_BACKEND": "vcpkg",
+    "VCPKG_ROOT": "H:/tectonic/target/vcpkg"
+  },
+  "rust-analyzer.check.allTargets": false
+}
